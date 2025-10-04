@@ -4,83 +4,11 @@
   <meta charset="UTF-8">
   <title>DreamViewer - Beach Dreaming</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/index.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      margin: 0;
-      padding: 0;
-      scroll-behavior: smooth;
-    }
-
-    .navbar {
-      background-color: rgba(0, 0, 0, 0.8);
-    }
-
-    .hero {
-      height: 100vh;
-      background: url('images/background.jpg') no-repeat center center;
-      background-size: cover;
-      position: relative;
-      color: white;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-    }
-
-    .hero::after {
-      content: '';
-      position: absolute;
-      top: 0; left: 0;
-      width: 100%; height: 100%;
-      background-color: rgba(0, 0, 0, 0.5);
-      z-index: 1;
-    }
-
-    .hero-content {
-      position: relative;
-      z-index: 2;
-    }
-
-    .hero h1 {
-      font-size: 4rem;
-      font-weight: bold;
-    }
-
-    .hero p {
-      font-size: 1.2rem;
-      margin-bottom: 30px;
-    }
-
-    .section {
-      padding: 80px 20px;
-    }
-
-    .section h2 {
-      font-size: 2.5rem;
-      margin-bottom: 30px;
-    }
-
-    .img-fluid {
-      border-radius: 10px;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-    }
-
-    footer {
-      background-color: #212529;
-      color: white;
-      padding: 30px 0;
-      text-align: center;
-    }
-  </style>
 </head>
 <body>
-
-  <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#">DreamViewer</a>
@@ -97,8 +25,6 @@
       </div>
     </div>
   </nav>
-
-  <!-- Hero Section -->
   <header class="hero">
     <div class="hero-content">
       <h1>DreamViewer</h1>
@@ -106,16 +32,12 @@
       <a href="#booking" class="btn btn-primary btn-lg">Start Dreaming</a>
     </div>
   </header>
-
-  <!-- About Section -->
   <section id="about" class="section bg-light text-center">
     <div class="container">
       <h2>About DreamViewer</h2>
       <p class="lead">DreamViewer is a dream journey platform that helps you visualize, experience, and relax into vivid beach landscapes as part of lucid dreaming and meditation experiences.</p>
     </div>
   </section>
-
-  <!-- Beach Image Gallery Section -->
   <section id="beaches" class="section text-center">
     <div class="container">
       <h2>Explore Dream Beaches</h2>
@@ -136,8 +58,6 @@
       </div>
     </div>
   </section>
-
-  <!-- Features Section -->
   <section id="features" class="section bg-light text-center">
     <div class="container">
       <h2>Why Choose DreamViewer?</h2>
@@ -157,8 +77,6 @@
       </div>
     </div>
   </section>
-
-  <!-- Booking CTA Section -->
   <section id="booking" class="section text-center">
     <div class="container">
       <h2>Ready to Visit Your Dream Beach?</h2>
@@ -167,19 +85,13 @@
     </div>
   </section>
 
-  <!-- Footer -->
-  <!-- Footer -->
 <footer class="text-white pt-5 pb-4" style="background-color: #0d0d0d;">
     <div class="container text-md-left">
       <div class="row text-md-left">
-  
-        <!-- Brand / Logo -->
         <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mt-3">
           <h5 class="text-uppercase mb-4 font-weight-bold">DreamViewer</h5>
           <p>Your gateway to beautiful beach dreams and peaceful sleep experiences. Relax, dream, repeat.</p>
         </div>
-  
-        <!-- Quick Links -->
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
           <h5 class="text-uppercase mb-4 font-weight-bold">Quick Links</h5>
           <p><a href="#about" class="text-white text-decoration-none">About</a></p>
@@ -187,20 +99,14 @@
           <p><a href="#booking" class="text-white text-decoration-none">Booking</a></p>
           <p><a href="#beaches" class="text-white text-decoration-none">Beaches</a></p>
         </div>
-  
-        <!-- Contact Info -->
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
           <h5 class="text-uppercase mb-4 font-weight-bold">Contact</h5>
           <p><i class="bi bi-envelope-fill me-2"></i> contact@dreamviewer.com</p>
           <p><i class="bi bi-phone-fill me-2"></i> +123 456 7890</p>
           <p><i class="bi bi-geo-alt-fill me-2"></i> Dream Beach, Pacific Ocean</p>
         </div>
-  
       </div>
-  
       <hr class="mb-4">
-  
-      <!-- Bottom -->
       <div class="row align-items-center">
         <div class="col-md-7 col-lg-8">
           <p class="text-center text-md-start">
@@ -208,7 +114,6 @@
           </p>
         </div>
         <div class="col-md-5 col-lg-4">
-          <!-- Social icons (optional) -->
           <div class="text-center text-md-end">
             <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
             <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
@@ -218,8 +123,6 @@
       </div>
     </div>
   </footer>
-   
-  <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
