@@ -1,0 +1,21 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f8ff;
+    padding-top: 70px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.hero {
+    background: url('https://source.unsplash.com/1600x400/?dream,night') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.section {
+    padding: 40px 20px;
+}
